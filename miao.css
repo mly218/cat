@@ -1,0 +1,60 @@
+
+.gitbook-link {
+ display: none !important;
+}
+table th {
+    font-weight: bold; /*加粗*/ 
+    width: 80px;
+    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
+    background: rgba(239,239,239,0.8); /*背景色*/
+}
+table tbody tr:nth-child(n){
+      font-size: 13px;
+}
+table tbody tr:nth-child(2n) {
+      font-size: 13px;
+      background: #fcfcfc !important;
+}
+.summary>li:first-child {
+	font-weight: 800;
+	font-size: 18px;
+}
+.summary>li:first-child>a{
+	padding-left: 15px !important; 
+}
+.summary>li:nth-last-child(2) {
+	display: none;
+}
+#book-search-input {
+	margin: 10px;
+	padding: 0;
+	border-radius: 5px;
+}
+#book-search-input input{
+	background: hsla(0,0%,100%,.125);
+}
+#book-search-input input, #book-search-input input:focus, #book-search-input input:hover {
+	line-height: 1.5;
+	color: #8F939E;
+	border-radius: 5px;
+}
+#book-search-input input:focus,#book-search-input input:hover {
+	background: #f1f1f1;
+	
+}
+.book-summary {
+	background: #1e2429;
+}
+.book-summary ul.summary li a, .book-summary ul.summary li span{
+	color: #8F939E;
+}
+pre[class*="language-"] {
+	    background: #f6f8fa !important; 
+}
+.markdown-section code{
+	background: rgba(27,31,35,.05); 
+	padding: 3px;
+}
+.alert{
+	font-size: 14px;
+}
